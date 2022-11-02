@@ -1,17 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        // Declaring an object of Bank class and calling the
-        // withdrawn and deposit methods with suitable
-        // parameters
-
-        // Creating object of class 1 inside main()
         Bank obj = new Bank();
 
         // Custom input - Transactions
-        obj.withdrawn("Arnab", 20);
-        obj.withdrawn("Monodwip", 40);
-        obj.deposit("Mukta", 35);
-        obj.withdrawn("Rinkel", 80);
-        obj.withdrawn("Shubham", 40);
+        obj.withdrawn("Henry", 20);
+        obj.withdrawn("Arrovin", 40);
+        obj.deposit("Helen", 35);
+        obj.withdrawn("Arosha", 80);
+        obj.withdrawn("Hen", 40);
     }
 }
