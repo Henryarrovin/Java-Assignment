@@ -44,6 +44,7 @@ public class Stack<T> {
     }
 
     public void printStack() {
+        System.out.println("Your Stack is:");
         if (top == -1) {
             System.out.println("Stack is empty!");
         } else {
