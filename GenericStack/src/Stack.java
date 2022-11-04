@@ -26,7 +26,7 @@ public class Stack<T> {
         }
     }
 
-    public T peek() {
+    public T Top() {
         if (top == -1) {
             System.out.println("Stack is empty!");
             return null;
